@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.bodyBack {
+    background-image: url("../img/merco_cut.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: 20%;
+}
+
+.pageTitle{
+    display: flex;
+    justify-content: space-between;
+    margin: 5px 30%;
+}
+
+.container {
+    position: fixed;
+    background-color: #525252;
+    height: 100%;
+    width: 50%;
+}
+
+.boxForm {
+    display: flex;
+    flex-direction: column;
+    margin: 0 30%;
+}
+
+.conInput {
+    border-radius: 10px;
+    height: 50px;
+    margin-bottom: 25px;
+    border: 2px solid #adadad;
+    background-color: rgb(59, 59, 59);
+    color: #d1d1d1;
+    padding-left: 10px;
+}
+
+.boxLink{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 30%;
+}
+
+.liens{
+    text-decoration: none;
+    color: #d1d1d1;
+}
+
+.bouton{
+    border-radius: 10px;
+    border-style: none;
+    height: 50px;
+    background: linear-gradient(180deg, rgba(223,22,129,1) 0%, rgba(238,134,190,1) 100%); 
+    color: white;
+}
+
+::placeholder{
+    color: #adadad;
+    opacity: 1;
+}

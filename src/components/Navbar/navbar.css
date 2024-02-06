@@ -1,0 +1,42 @@
+.hero{
+    background-image: url("../img/Hero.jpg");
+    height: 500px;
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.boxnav{
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar{
+    margin: 170px 700px;
+    padding: 25px;
+    border: solid 1px black;
+    border-radius: 50px;
+    display: flex;
+    justify-content: space-around;
+    height: 21px;
+    background-color: rgba(59, 59, 59, 0.767) 
+    
+}
+
+.link{
+    color: white;
+    position: relative;
+    left: 30px;
+    /* padding: 0 20px; */
+}
+
+.searchButton{
+    border: 1px solid black;
+    border-radius: 50px;
+    padding: 25px;
+    height: 21px;
+    width: 21px;
+    position: relative;
+    bottom: 25px; left: 53px;
+    background: linear-gradient(180deg, rgba(223,22,129,1) 0%, rgba(238,134,190,1) 100%);
+}

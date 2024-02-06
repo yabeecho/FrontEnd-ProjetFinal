@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.bodyBack2 {
+    background-image: url("../img/G63_cut.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: 50%;
+    background-position-x: 105%;
+    background-size: 54%;
+}
+
+.pageTitle2{
+    display: flex;
+    justify-content: space-between;
+    margin: 5px 30%;
+}
+
+.container2 {
+    position: fixed;
+    background-color: #525252;
+    height: 100%;
+    width: 50%;
+}
+
+.boxForm2 {
+    display: flex;
+    flex-direction: column;
+    margin: 0 30%;
+}
+
+.conInput2 {
+    border-radius: 10px;
+    height: 50px;
+    margin-bottom: 25px;
+    border: 2px solid #adadad;
+    background-color: rgb(59, 59, 59);
+    color: #d1d1d1;
+    padding-left: 10px;
+}
+
+.conInput3 {
+    border-radius: 10px;
+    height: 50px;
+    margin-bottom: 10px;
+    border: 2px solid #adadad;
+    background-color: rgb(59, 59, 59);
+    color: #d1d1d1;
+    padding-left: 10px;
+}
+
+.boxLink2{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 30%;
+}
+
+.liens2{
+    text-decoration: none;
+    color: #d1d1d1;
+}
+
+.bouton2{
+    border-radius: 10px;
+    border-style: none;
+    height: 50px;
+    background: linear-gradient(180deg, rgba(223,22,129,1) 0%, rgba(238,134,190,1) 100%); 
+    color: white;
+}
+
+.boxCheck{
+    display: flex;
+    margin-bottom: 25px;
+}
+
+.conditions{
+    font-size: x-small;
+    margin-left: 10px;  
+}
+
+::placeholder{
+    color: #adadad;
+    opacity: 1;
+}
