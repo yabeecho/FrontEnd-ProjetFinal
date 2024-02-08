@@ -1,6 +1,7 @@
 import React, { useEffect } from 'react'
 import NavbarBis from '../Navbar/NavbarBis'
 import "./inscription.css"
+import { FaArrowLeft } from "react-icons/fa";
 
 function Inscription() {
     useEffect(() => {
@@ -32,6 +33,7 @@ function Inscription() {
 
                     <input type="submit" value="Sign In" className='bouton2' />
                 </form>
+                <a href='/connexion' className='retour'><FaArrowLeft /> Retour</a>
             </section>
         </React.Fragment >
 

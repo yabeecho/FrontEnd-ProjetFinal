@@ -4,18 +4,19 @@
 }
 
 .bodyBack2 {
-    background-image: url("../img/G63_cut.jpg");
+    background-image: url("../img/Porsche.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position-y: 50%;
-    background-position-x: 105%;
-    background-size: 54%;
+    background-position-x: 115%;
+    background-size: 62%;
 }
 
 .pageTitle2{
     display: flex;
     justify-content: space-between;
     margin: 5px 30%;
+    margin-top: 150px;
 }
 
 .container2 {
@@ -78,6 +79,10 @@
 .conditions{
     font-size: x-small;
     margin-left: 10px;  
+}
+
+.retour{
+    
 }
 
 ::placeholder{

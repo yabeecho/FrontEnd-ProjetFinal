@@ -2,6 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import './navbar.css'
 import { FaSearch } from "react-icons/fa";
+import { CgProfile } from "react-icons/cg";
 
 function Navbar() {
 
@@ -10,7 +11,7 @@ function Navbar() {
             <section className='hero'>
                 <div class="boxnav">
                     <a href='/'> logo </a>
-                    <a href='/connexion'> Bouton connexion </a>
+                    <a href='/connexion' className='profileLogo'> <CgProfile /> </a>
                 </div>
                 <nav class="navbar">
                     <Link class="link" to="/">Home</Link>
